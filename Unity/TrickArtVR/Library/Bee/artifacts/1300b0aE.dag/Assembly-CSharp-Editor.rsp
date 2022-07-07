@@ -116,6 +116,8 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UDUINO_READY
+-define:UDUINO_MEGA_MESSAGE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/2021.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -403,6 +405,9 @@
 "Assets/Oculus/SampleFramework/Editor/BuildSamples.cs"
 "Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs"
 "Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Editor/OVROverlayCanvasEditor.cs"
+"Assets/Uduino/Editor/UduinoManagerEditor.cs"
+"Assets/Uduino/Editor/UduinoManagerWindow.cs"
+"Assets/Uduino/Scripts/Extra/Interface/Editor/UduinoInterfaceEditor.cs"
 -langversion:9.0
 
 /deterministic
